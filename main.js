@@ -33,7 +33,7 @@
 		return {
 			isTimeWithinPeriod: function (date) {
 				const currentTime = Time(date.getHours(), curM = date.getMinutes());
-				return (currentTime.greaterThanOrEqualTo(period.time1) && !currentTime.greaterThanOrEqualTo(period.time2))
+				return (!currentTime.greaterThanOrEqualTo(period.time1) && currentTime.greaterThanOrEqualTo(period.time2))
 			}
 		}
 	}
@@ -57,3 +57,4 @@
 		};
 	}
 })();
+
