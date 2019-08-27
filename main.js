@@ -4,7 +4,7 @@
 	function init() {
 		const eatingPeriods = [
 			TimePeriod(Time(18, 00), Time(19, 00)),
-			TimePeriod(Time(12, 00), Time(13, 00)),
+			TimePeriod(Time(12, 00), Time(13, 30)),
 			TimePeriod(Time(07, 00), Time(09, 00))
 		];
 		const answerElement = document.getElementById('answer-text');
