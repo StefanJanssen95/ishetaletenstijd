@@ -1,0 +1,29 @@
+body {
+  padding: 0; margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.question-text{
+  color: black;
+}
+
+.answer-text{
+
+}
+
+.answer-text--positive{
+  color: green;
+}
+
+.answer-text--negative{
+  color: red;
+}
